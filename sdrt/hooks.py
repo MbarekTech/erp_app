@@ -247,6 +247,17 @@ doc_events = {
 # 	"sdrt.auth.validate"
 # ]
 
+# Fixtures
+# --------
+# Export fixtures for this app
+fixtures = [
+	"fixtures/custom_docperm.json",
+	"fixtures/custom_field.json", 
+	"fixtures/property_setter.json",
+	"fixtures/report.json",
+	"fixtures/role.json"
+]
+
 # Automatically update python controller files with type annotations for this app.
 # export_python_type_annotations = True
 
