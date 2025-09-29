@@ -59,3 +59,5 @@ The SDRT app is automatically installed during container build. To update:
 1. Push changes to GitHub repository
 2. Rebuild Docker image: `docker-compose build --no-cache`
 3. Restart services: `docker-compose up -d`
+
+..
