@@ -7,6 +7,9 @@ description = "SDRT - Système de Demande et de Réception de Travaux"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
+
+[tool.flit.metadata]
+module = "sdrt"
 dependencies = [
     # "frappe~=15.0.0" # Installed and managed by bench.
 ]
