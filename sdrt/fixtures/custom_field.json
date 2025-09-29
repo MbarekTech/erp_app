@@ -2579,7 +2579,7 @@
     "precision": "",
     "hide_seconds": 0,
     "hide_days": 0,
-    "options": null,
+    "options": "print_designer",
     "sort_options": 0,
     "fetch_from": null,
     "fetch_if_empty": 0,
