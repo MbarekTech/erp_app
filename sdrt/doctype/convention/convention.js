@@ -1,8 +1,9 @@
-// Copyright (c) 2025, sdrt and contributors
-// For license information, please see license.txt
+// Convention JavaScript
+// Copyright (c) 2025, SDRT and contributors
 
-// frappe.ui.form.on("convention", {
-// 	refresh(frm) {
-
-// 	},
-// });
+frappe.ui.form.on('Convention', {
+    refresh: function(frm) {
+        // Custom logic for Convention
+        console.log('Convention form loaded');
+    }
+});

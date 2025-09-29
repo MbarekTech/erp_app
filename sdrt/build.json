@@ -1,0 +1,18 @@
+{
+    "js": [
+        "public/js/sdrt.js",
+        "doctype/material_request/material_request.js",
+        "doctype/sdr_budget/sdr_budget.js",
+        "doctype/direction/direction.js",
+        "doctype/programme/programme.js",
+        "doctype/convention/convention.js",
+        "custom/purchase_order.js"
+    ],
+    "css": [
+        "public/css/sdrt.css"
+    ],
+    "web_assets": [
+        "public/js/sdrt.js",
+        "public/css/sdrt.css"
+    ]
+}
