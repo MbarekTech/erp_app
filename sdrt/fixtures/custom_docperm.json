@@ -1,6 +1,5 @@
 [
   {
-    "doctype": "Custom DocPerm",
     "name": "42d7sse18q",
     "creation": "2025-09-12 15:57:24.540896",
     "modified": "2025-09-12 15:57:24.540896",
@@ -29,10 +28,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Custom DocPerm"
   },
   {
-    "doctype": "Custom DocPerm",
     "name": "42d3sh3qki",
     "creation": "2025-09-12 15:57:24.593049",
     "modified": "2025-09-12 15:57:24.593049",
@@ -61,10 +60,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Custom DocPerm"
   },
   {
-    "doctype": "Custom DocPerm",
     "name": "42e3rjdun9",
     "creation": "2025-09-12 15:57:24.603084",
     "modified": "2025-09-12 15:57:24.603084",
@@ -93,10 +92,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Custom DocPerm"
   },
   {
-    "doctype": "Custom DocPerm",
     "name": "42epcl0orl",
     "creation": "2025-09-12 15:57:24.609294",
     "modified": "2025-09-12 15:57:24.609294",
@@ -125,10 +124,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Custom DocPerm"
   },
   {
-    "doctype": "Custom DocPerm",
     "name": "buea1b4qjn",
     "creation": "2025-09-15 09:43:00.589676",
     "modified": "2025-09-15 09:43:00.589676",
@@ -157,10 +156,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Custom DocPerm"
   },
   {
-    "doctype": "Custom DocPerm",
     "name": "n7r9qajmio",
     "creation": "2025-09-15 10:56:53.897363",
     "modified": "2025-09-15 10:56:53.897363",
@@ -189,6 +188,7 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Custom DocPerm"
   }
 ]

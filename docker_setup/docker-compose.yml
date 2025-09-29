@@ -1,7 +1,7 @@
 services:
   backend:
     build: .
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     deploy:
@@ -17,7 +17,7 @@ services:
       MARIADB_ROOT_PASSWORD: 123456@info
 
   configurator:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     deploy:
@@ -49,7 +49,7 @@ services:
       - logs:/home/frappe/frappe-bench/logs
 
   create-site:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     deploy:
@@ -67,7 +67,8 @@ services:
     command:
       - >
         echo "Dependencies are healthy, starting site creation...";
-        bench new-site --mariadb-user-host-login-scope='%' --admin-password=123456@info --db-root-username=root --db-root-password=123456@info --install-app erpnext --set-default frontend --install-app hrms --install-app print_designer --install-app sdrt;
+        bench new-site --mariadb-user-host-login-scope='%' --admin-password=123456@info --db-root-username=root --db-root-password=123456@info --install-app erpnext --set-default frontend --install-app hrms --install-app print_designer;
+        echo "Base system installed successfully. SDRT app can be installed manually after the system is running.";
 
   db:
     image: mariadb:10.6
@@ -92,7 +93,7 @@ services:
       - db-data:/var/lib/mysql
 
   frontend:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     depends_on:
@@ -123,7 +124,7 @@ services:
       - "8080:8080"
 
   queue-long:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     depends_on:
@@ -142,7 +143,7 @@ services:
       - logs:/home/frappe/frappe-bench/logs
 
   queue-short:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     depends_on:
@@ -179,7 +180,7 @@ services:
         condition: on-failure
 
   scheduler:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     depends_on:
@@ -196,7 +197,7 @@ services:
       - logs:/home/frappe/frappe-bench/logs
 
   websocket:
-    image: erpnext-hrms-custom:latest
+    image: erpnext-hrms-base:v1
     networks:
       - shared-web-network
     depends_on:

@@ -1,6 +1,5 @@
 [
   {
-    "doctype": "Property Setter",
     "name": "Budget-naming_series-options",
     "docstatus": 0,
     "idx": 0,
@@ -17,10 +16,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Customer-naming_series-reqd",
     "docstatus": 0,
     "idx": 0,
@@ -37,10 +36,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Customer-naming_series-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -57,10 +56,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-tax_id-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -77,10 +76,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -97,10 +96,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-tax_id-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -117,10 +116,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -137,10 +136,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -157,10 +156,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -177,10 +176,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -197,10 +196,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -217,10 +216,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -237,10 +236,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -257,10 +256,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note Item-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -277,10 +276,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Delivery Note Item-target_warehouse-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -297,10 +296,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Item-item_code-reqd",
     "docstatus": 0,
     "idx": 0,
@@ -317,10 +316,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Item-barcodes-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -337,10 +336,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Item-item_code-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -357,10 +356,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Item-naming_series-reqd",
     "docstatus": 0,
     "idx": 0,
@@ -377,10 +376,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Item-naming_series-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -397,10 +396,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Item Barcode-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -417,10 +416,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Job Card-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -437,10 +436,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Material Request-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -457,10 +456,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Material Request-naming_series-options",
     "docstatus": 0,
     "idx": 0,
@@ -477,10 +476,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Material Request-main-default_print_format",
     "docstatus": 0,
     "idx": 0,
@@ -497,10 +496,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Packed Item-rate-read_only",
     "docstatus": 0,
     "idx": 0,
@@ -517,10 +516,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Payment Entry-naming_series-options",
     "docstatus": 0,
     "idx": 0,
@@ -537,10 +536,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Pick List-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -557,10 +556,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "POS Invoice-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -577,10 +576,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "POS Invoice Item-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -597,10 +596,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Print Format-pdf_generator-options",
     "docstatus": 0,
     "idx": 0,
@@ -617,10 +616,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Project-naming_series-options",
     "docstatus": 0,
     "idx": 0,
@@ -637,10 +636,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -657,10 +656,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -677,10 +676,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -697,10 +696,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -717,10 +716,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-naming_series-options",
     "docstatus": 0,
     "idx": 0,
@@ -737,10 +736,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -757,10 +756,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -777,10 +776,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -797,10 +796,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -817,10 +816,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Invoice Item-from_warehouse-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -837,10 +836,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -857,10 +856,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -877,10 +876,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -897,10 +896,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -917,10 +916,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-naming_series-options",
     "docstatus": 0,
     "idx": 0,
@@ -937,10 +936,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -957,10 +956,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -977,10 +976,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -997,10 +996,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Order-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -1017,10 +1016,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1037,10 +1036,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1057,10 +1056,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1077,10 +1076,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1097,10 +1096,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1117,10 +1116,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1137,10 +1136,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1157,10 +1156,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -1177,10 +1176,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt-provisional_expense_account-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1197,10 +1196,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt Item-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1217,10 +1216,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Purchase Receipt Item-from_warehouse-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1237,10 +1236,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1257,10 +1256,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1277,10 +1276,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1297,10 +1296,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1317,10 +1316,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1337,10 +1336,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1357,10 +1356,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1377,10 +1376,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Quotation-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -1397,10 +1396,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Salary Slip-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1417,10 +1416,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Salary Slip-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1437,10 +1436,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-tax_id-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1457,10 +1456,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1477,10 +1476,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-tax_id-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1497,10 +1496,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1517,10 +1516,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1537,10 +1536,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1557,10 +1556,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1577,10 +1576,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1597,10 +1596,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1617,10 +1616,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -1637,10 +1636,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-additional_discount_account-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1657,10 +1656,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice-additional_discount_account-mandatory_depends_on",
     "docstatus": 0,
     "idx": 0,
@@ -1677,10 +1676,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice Item-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1697,10 +1696,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice Item-discount_account-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1717,10 +1716,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice Item-target_warehouse-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1737,10 +1736,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Invoice Item-discount_account-mandatory_depends_on",
     "docstatus": 0,
     "idx": 0,
@@ -1757,10 +1756,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-tax_id-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1777,10 +1776,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1797,10 +1796,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-tax_id-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1817,10 +1816,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1837,10 +1836,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1857,10 +1856,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1877,10 +1876,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1897,10 +1896,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1917,10 +1916,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -1937,10 +1936,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Sales Order-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -1957,10 +1956,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Stock Entry-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1977,10 +1976,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Stock Entry Detail-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -1997,10 +1996,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Stock Reconciliation-scan_barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -2017,10 +2016,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Stock Reconciliation Item-barcode-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -2037,10 +2036,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier-naming_series-reqd",
     "docstatus": 0,
     "idx": 0,
@@ -2057,10 +2056,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier-naming_series-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -2077,10 +2076,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-in_words-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -2097,10 +2096,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-in_words-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -2117,10 +2116,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -2137,10 +2136,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -2157,10 +2156,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-base_rounded_total-hidden",
     "docstatus": 0,
     "idx": 0,
@@ -2177,10 +2176,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-base_rounded_total-print_hide",
     "docstatus": 0,
     "idx": 0,
@@ -2197,10 +2196,10 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   },
   {
-    "doctype": "Property Setter",
     "name": "Supplier Quotation-disable_rounded_total-default",
     "docstatus": 0,
     "idx": 0,
@@ -2217,6 +2216,7 @@
     "_user_tags": null,
     "_comments": null,
     "_assign": null,
-    "_liked_by": null
+    "_liked_by": null,
+    "doctype": "Property Setter"
   }
 ]
