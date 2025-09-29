@@ -1,154 +1,170 @@
 # SDRT App Installation Guide
 
-## Quick Installation (Recommended)
+## Prerequisites
 
-1. **Transfer the package** to your target computer:
+- Frappe Framework v15+
+- ERPNext v15+
+- Python 3.10+
+- Node.js 18+
+- MySQL/MariaDB
+
+## Installation Methods
+
+### Method 1: Using Bench (Recommended)
+
+1. **Navigate to your bench directory:**
    ```bash
-   scp sdrt-app-complete.tar.gz user@target-computer:/tmp/
+   cd /path/to/your/bench
    ```
 
-2. **On the target computer**, navigate to your Frappe bench and run:
+2. **Install the SDRT app:**
    ```bash
-   cd /path/to/your/frappe-bench
-   tar -xzf /tmp/sdrt-app-complete.tar.gz
-   bash sdrt/install_on_target.sh YOUR_SITE_NAME
+   bench get-app https://github.com/your-repo/sdrt.git
+   bench install-app sdrt
    ```
 
-   Example:
+3. **Migrate the database:**
    ```bash
-   bash sdrt/install_on_target.sh mysite.localhost
+   bench migrate
    ```
 
-## Manual Installation (if script fails)
-
-1. **Extract the package**:
+4. **Restart the bench:**
    ```bash
-   tar -xzf sdrt-app-complete.tar.gz
-   ```
-
-2. **Move to apps directory**:
-   ```bash
-   cd /path/to/frappe-bench
-   mv sdrt apps/
-   ```
-
-3. **Add to apps.txt**:
-   ```bash
-   echo "sdrt" >> sites/apps.txt
-   ```
-
-4. **Register with bench**:
-   ```bash
-   bench get-app apps/sdrt
-   ```
-
-5. **Install on site**:
-   ```bash
-   bench --site YOUR_SITE install-app sdrt
-   ```
-
-6. **Build and restart**:
-   ```bash
-   bench build --app sdrt
-   bench --site YOUR_SITE migrate
    bench restart
    ```
 
-## Troubleshooting "Module not found" Errors
+### Method 2: Manual Installation
 
-If you get "module sdrt not found" errors, try these solutions:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-repo/sdrt.git
+   cd sdrt
+   ```
 
-### Solution 1: Python Path Issues
+2. **Copy to apps directory:**
+   ```bash
+   cp -r . /path/to/bench/apps/sdrt
+   ```
+
+3. **Install the app:**
+   ```bash
+   bench install-app sdrt
+   ```
+
+## Post-Installation Setup
+
+### 1. Create Default Data
+
+After installation, create the following default data:
+
+#### Directions
+- Navigate to **SDRT > Direction**
+- Create default directions for your organization
+
+#### Programmes
+- Navigate to **SDRT > Programme**
+- Create default programmes
+
+#### Conventions
+- Navigate to **SDRT > Convention**
+- Create default conventions
+
+### 2. Configure User Permissions
+
+Ensure users have appropriate roles:
+- **System Manager**: Full access to all SDRT features
+- **Purchase Manager**: Access to Material Requests and Purchase Orders
+- **Stock Manager**: Access to inventory-related features
+
+### 3. Set Up Budget Items
+
+1. Navigate to **SDRT > SDR Budget**
+2. Create budget items with proper analytical codes
+3. Set up budget amounts and constraints
+
+## Configuration
+
+### Custom Fields
+
+The app adds custom fields to standard ERPNext doctypes:
+- **Address**: Tax Category, Company Address
+- **Contact**: Billing Contact
+- **Company**: HR & Payroll settings
+
+### Document Types
+
+The app creates the following custom doctypes:
+- **Direction**: Organizational directions
+- **Programme**: Program management
+- **Convention**: Convention management
+- **SDR Budget**: Budget management
+- **Material Request**: Enhanced material requests
+- **Purchase Order Item**: Enhanced purchase order items
+- **Purchase Receipt Item**: Enhanced purchase receipt items
+
+## Usage
+
+### 1. Material Request Workflow
+
+1. Create a **Material Request**
+2. Add items to the **Demande d'achat** table
+3. Set analytical codes and budget constraints
+4. Submit for approval
+
+### 2. Budget Management
+
+1. Create **SDR Budget** entries
+2. Set analytical codes and amounts
+3. Monitor committed vs available amounts
+
+### 3. Purchase Order Integration
+
+1. Create **Purchase Orders** from Material Requests
+2. Budget amounts are automatically committed
+3. Track budget utilization
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Installation fails with dependency error:**
+   - Ensure ERPNext is properly installed
+   - Check Python and Node.js versions
+
+2. **Custom fields not appearing:**
+   - Run `bench migrate`
+   - Clear browser cache
+
+3. **Permissions not working:**
+   - Check user roles
+   - Verify module permissions
+
+### Debug Mode
+
+Enable debug mode for troubleshooting:
 ```bash
-cd /path/to/frappe-bench
-bench --site YOUR_SITE console
->>> import sys
->>> sys.path.append('/path/to/frappe-bench/apps')
->>> import sdrt
->>> print(sdrt.__version__)
-```
-
-### Solution 2: Reinstall the App
-```bash
-bench --site YOUR_SITE uninstall-app sdrt --force
-bench get-app apps/sdrt
-bench --site YOUR_SITE install-app sdrt
-```
-
-### Solution 3: Clear Cache and Rebuild
-```bash
-bench clear-cache
-bench build --hard
+bench --site your-site set-config developer_mode 1
 bench restart
 ```
 
-### Solution 4: Check App Structure
-```bash
-# Verify app structure
-ls -la apps/sdrt/sdrt/
-# Should show: __init__.py, hooks.py, modules.txt, etc.
+## Uninstallation
 
-# Check if app is properly registered
-bench list-apps
-```
-
-## Verification Commands
-
-After installation, verify everything works:
+To uninstall the SDRT app:
 
 ```bash
-# Check installed apps
-bench --site YOUR_SITE list-apps
-
-# Should show sdrt in the list
-
-# Test import in console
-bench --site YOUR_SITE console
->>> import sdrt
->>> print("SDRT version:", sdrt.__version__)
->>> exit()
-
-# Check site health
-bench --site YOUR_SITE doctor
+bench uninstall-app sdrt
 ```
 
-## File Structure Requirements
-
-Your extracted app should have this structure:
-```
-sdrt/
-├── pyproject.toml
-├── README.md
-├── license.txt
-├── install_on_target.sh
-├── validate_app.sh
-├── INSTALLATION_TROUBLESHOOTING.md
-└── sdrt/
-    ├── __init__.py
-    ├── hooks.py
-    ├── modules.txt
-    ├── patches.txt
-    └── sdrt/
-        └── doctype/
-            └── [your doctypes]
-```
+**Warning**: This will remove all SDRT data and customizations.
 
 ## Support
 
-If you continue to have issues:
+For support and issues:
+- Create an issue on GitHub
+- Contact: ouchgoutmohamed@gmail.com
 
-1. Check the logs:
-   ```bash
-   tail -f logs/bench.log
-   tail -f logs/YOUR_SITE.log
-   ```
+## Version History
 
-2. Run the validation script:
-   ```bash
-   bash sdrt/validate_app.sh
-   ```
-
-3. Check the troubleshooting guide:
-   ```bash
-   cat sdrt/INSTALLATION_TROUBLESHOOTING.md
-   ```
+- **v1.0.0**: Initial release with basic SDRT functionality
+- **v1.1.0**: Added budget management features
+- **v1.2.0**: Enhanced Material Request workflow

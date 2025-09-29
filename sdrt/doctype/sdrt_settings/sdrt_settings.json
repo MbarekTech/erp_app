@@ -1,0 +1,148 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "hash",
+ "creation": "2025-01-27 10:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_1",
+  "app_title",
+  "app_description",
+  "column_break_3",
+  "app_version",
+  "section_break_4",
+  "budget_settings",
+  "enable_budget_control",
+  "default_budget_year",
+  "column_break_6",
+  "budget_approval_required",
+  "section_break_7",
+  "workflow_settings",
+  "enable_workflow",
+  "default_approver",
+  "column_break_8",
+  "auto_approve_limit"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_1",
+   "fieldtype": "Section Break",
+   "label": "General Settings"
+  },
+  {
+   "default": "SDRT",
+   "fieldname": "app_title",
+   "fieldtype": "Data",
+   "label": "App Title",
+   "reqd": 1
+  },
+  {
+   "default": "SDRT Management System",
+   "fieldname": "app_description",
+   "fieldtype": "Text",
+   "label": "App Description"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1.0.0",
+   "fieldname": "app_version",
+   "fieldtype": "Data",
+   "label": "App Version",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break",
+   "label": "Budget Settings"
+  },
+  {
+   "fieldname": "budget_settings",
+   "fieldtype": "Section Break",
+   "label": "Budget Control"
+  },
+  {
+   "default": "1",
+   "fieldname": "enable_budget_control",
+   "fieldtype": "Check",
+   "label": "Enable Budget Control"
+  },
+  {
+   "default": "2025",
+   "fieldname": "default_budget_year",
+   "fieldtype": "Int",
+   "label": "Default Budget Year"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "budget_approval_required",
+   "fieldtype": "Check",
+   "label": "Budget Approval Required"
+  },
+  {
+   "fieldname": "section_break_7",
+   "fieldtype": "Section Break",
+   "label": "Workflow Settings"
+  },
+  {
+   "fieldname": "workflow_settings",
+   "fieldtype": "Section Break",
+   "label": "Approval Workflow"
+  },
+  {
+   "default": "1",
+   "fieldname": "enable_workflow",
+   "fieldtype": "Check",
+   "label": "Enable Workflow"
+  },
+  {
+   "fieldname": "default_approver",
+   "fieldtype": "Link",
+   "label": "Default Approver",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "1000",
+   "fieldname": "auto_approve_limit",
+   "fieldtype": "Currency",
+   "label": "Auto Approve Limit"
+  }
+ ],
+ "idx": 0,
+ "is_submittable": 0,
+ "links": [],
+ "modified": "2025-01-27 10:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Sdrt",
+ "name": "SDRT Settings",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

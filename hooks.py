@@ -8,7 +8,7 @@ app_license = "mit"
 # Apps
 # ------------------
 
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Each item in the list will be shown as an app in the apps page
 # add_to_apps_screen = [
@@ -85,14 +85,14 @@ doctype_js = {
 # Installation
 # ------------
 
-# before_install = "sdrt.install.before_install"
-# after_install = "sdrt.install.after_install"
+before_install = "install.before_install"
+after_install = "install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "sdrt.uninstall.before_uninstall"
-# after_uninstall = "sdrt.uninstall.after_uninstall"
+before_uninstall = "uninstall.before_uninstall"
+after_uninstall = "uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
@@ -181,7 +181,7 @@ doc_events = {
 # Testing
 # -------
 
-# before_tests = "sdrt.install.before_tests"
+before_tests = "install.before_tests"
 
 # Overriding Methods
 # ------------------------------
