@@ -1,0 +1,12 @@
+{
+    "js": {
+        "sdrt.min.js": [
+            "public/js/sdrt.js"
+        ]
+    },
+    "css": {
+        "sdrt.min.css": [
+            "public/css/sdrt.css"
+        ]
+    }
+}

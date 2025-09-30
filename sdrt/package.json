@@ -1,0 +1,12 @@
+{
+  "name": "sdrt",
+  "version": "1.0.0",
+  "description": "SDRT - Système de Demande et de Réception de Travaux",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build completed'"
+  },
+  "keywords": ["frappe", "erpnext", "sdrt"],
+  "author": "sdrt",
+  "license": "MIT"
+}

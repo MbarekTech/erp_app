@@ -26,3 +26,10 @@ after_uninstall = "uninstall.after_uninstall"
 # -------
 
 before_tests = "install.before_tests"
+
+# Includes in <head>
+# ------------------
+
+# include js, css files in header of desk.html
+app_include_css = "/assets/sdrt/css/sdrt.min.css"
+app_include_js = "/assets/sdrt/js/sdrt.min.js"
