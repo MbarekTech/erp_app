@@ -1,150 +1,144 @@
-# SDRT Installation Troubleshooting Guide
+# SDRT App Installation Troubleshooting Guide
 
-## esbuild Error Resolution
+## Common Issues and Solutions
 
-If you encounter the following error during installation:
+### 1. "Module sdrt not found" Error
 
-```
-TypeError [ERR_INVALID_ARG_TYPE]: The "paths[0]" argument must be of type string. Received undefined
-```
+**Cause**: App not properly registered with Frappe or Python path issues.
 
-This is a known issue with Frappe's esbuild system. Here are several solutions:
-
-## Solution 1: Skip Assets During Installation (Recommended)
-
+**Solutions**:
 ```bash
-# Remove any failed installation first
-rm -rf /home/frappe/frappe-bench/apps/sdrt
-
-# Install with skip-assets flag
-bench get-app --skip-assets https://github.com/MbarekTech/erp_app.git
-bench install-app sdrt
-bench migrate
+# Solution A: Re-register the app
+cd /path/to/frappe-bench
+bench get-app apps/sdrt
+bench build --app sdrt
 bench restart
+
+# Solution B: Check Python path
+cd /path/to/frappe-bench
+bench --site your-site console
+>>> import sys
+>>> sys.path
+>>> import sdrt  # This should work now
+
+# Solution C: Force reinstall
+bench --site your-site uninstall-app sdrt --force
+bench --site your-site install-app sdrt
 ```
 
-## Solution 2: Manual Installation
+### 2. "App sdrt not installed" Error
 
+**Cause**: App not properly added to site's apps list.
+
+**Solution**:
 ```bash
-# Clone the repository manually
-cd /home/frappe/frappe-bench/apps
-git clone https://github.com/MbarekTech/erp_app.git sdrt
+# Check apps.txt
+cat sites/your-site/apps.txt
 
-# Install without building assets
-bench install-app sdrt --skip-assets
-bench migrate
-bench restart
+# If sdrt is missing, add it manually:
+echo "sdrt" >> sites/your-site/apps.txt
+
+# Then migrate
+bench --site your-site migrate
 ```
 
-## Solution 3: Build Assets Separately
+### 3. "ImportError: No module named 'sdrt.hooks'"
 
+**Cause**: App directory structure issue.
+
+**Solution**:
 ```bash
-# Install the app first
-bench get-app --skip-assets https://github.com/MbarekTech/erp_app.git
-bench install-app sdrt
+# Check directory structure
+ls -la apps/sdrt/sdrt/
+# Should contain __init__.py and hooks.py
 
-# Try building assets separately (if needed)
-bench build --app sdrt --skip-assets
-bench migrate
-bench restart
+# If structure is wrong, re-extract:
+rm -rf apps/sdrt
+tar -xzf sdrt-app-complete.tar.gz
+mv sdrt apps/
+bench get-app apps/sdrt
 ```
 
-## Solution 4: Use Development Mode
+### 4. Permission Issues
 
-```bash
-# Install in development mode
-bench get-app --skip-assets https://github.com/MbarekTech/erp_app.git
-bench install-app sdrt
-bench develop
-bench migrate
-bench restart
-```
-
-## Post-Installation Setup
-
-After successful installation:
-
-1. **Access the App:**
-   - Navigate to your ERPNext instance
-   - The SDRT module should appear in the desk
-
-2. **Create Initial Data:**
-   - Go to SDRT > Direction and create organizational directions
-   - Go to SDRT > Programme and create programs
-   - Go to SDRT > Convention and create conventions
-   - Go to SDRT > SDR Budget and create budget items
-
-3. **Configure Permissions:**
-   - Assign appropriate roles to users
-   - Configure user permissions for SDRT features
-
-## Troubleshooting
-
-### If the app still doesn't install:
-
-1. **Check Frappe Version:**
-   ```bash
-   bench version
-   ```
-   Ensure you're using Frappe v15+
-
-2. **Clear Cache:**
-   ```bash
-   bench clear-cache
-   bench clear-website-cache
-   ```
-
-3. **Check Node.js Version:**
-   ```bash
-   node -v
-   yarn -v
-   ```
-   Ensure Node.js 18+ and Yarn are installed
-
-4. **Manual Asset Building:**
-   ```bash
-   cd /home/frappe/frappe-bench/apps/sdrt
-   yarn install
-   yarn build
-   ```
-
-### If you get permission errors:
-
+**Solution**:
 ```bash
 # Fix ownership
-sudo chown -R frappe:frappe /home/frappe/frappe-bench/apps/sdrt
+sudo chown -R frappe:frappe /path/to/frappe-bench/apps/sdrt
+
+# Fix permissions
+chmod -R 755 /path/to/frappe-bench/apps/sdrt
 ```
 
-## Alternative Installation Methods
+### 5. Database Migration Issues
 
-### Method 1: Docker Installation
+**Solution**:
 ```bash
-# Use the provided Docker setup
-cd docker_setup
-docker-compose up -d
+# Force migrate
+bench --site your-site migrate --skip-failing
+
+# Or reset and reinstall
+bench --site your-site uninstall-app sdrt --force
+bench --site your-site install-app sdrt
 ```
 
-### Method 2: Manual File Copy
+### 6. Build Issues
+
+**Solution**:
 ```bash
-# Copy files manually
-cp -r /path/to/sdrt /home/frappe/frappe-bench/apps/
-bench install-app sdrt
+# Clear cache and rebuild
+bench clear-cache
+bench build --hard
+bench restart
 ```
 
-## Support
+## Manual Installation Steps (if script fails)
 
-If you continue to experience issues:
+1. **Extract package**:
+   ```bash
+   tar -xzf sdrt-app-complete.tar.gz
+   ```
 
-1. Check the Frappe community forums
-2. Review the ERPNext documentation
-3. Ensure your system meets all requirements
-4. Consider using the Docker setup for a clean environment
+2. **Move to apps directory**:
+   ```bash
+   mv sdrt /path/to/frappe-bench/apps/
+   ```
 
-## Requirements
+3. **Register app**:
+   ```bash
+   cd /path/to/frappe-bench
+   bench get-app apps/sdrt
+   ```
 
-- Frappe Framework v15+
-- ERPNext v15+
-- Python 3.10+
-- Node.js 18+
-- MySQL/MariaDB
-- Yarn package manager
+4. **Install on site**:
+   ```bash
+   bench --site your-site install-app sdrt
+   ```
+
+5. **Build and restart**:
+   ```bash
+   bench build --app sdrt
+   bench restart
+   ```
+
+## Verification Commands
+
+```bash
+# Check if app is installed
+bench --site your-site list-apps
+
+# Check app status
+bench --site your-site doctor
+
+# Test app import
+bench --site your-site console
+>>> import sdrt
+>>> print(sdrt.__version__)
+```
+
+## Getting Help
+
+If you still encounter issues:
+1. Check bench logs: `tail -f logs/bench.log`
+2. Check site logs: `tail -f logs/your-site.log`
+3. Run: `bench --site your-site doctor`

@@ -1,12 +1,12 @@
 [project]
 name = "sdrt"
+version = "1.0.0"
 authors = [
-    { name = "sdrt", email = "ouchgoutmohamed@gmail.com"}
+    {name = "sdrt", email = "ouchgoutmohamed@gmail.com"}
 ]
-description = "gestion de sdrt"
-requires-python = ">=3.10"
+description = "SDRT - Système de Demande et de Réception de Travaux"
 readme = "README.md"
-dynamic = ["version"]
+requires-python = ">=3.10"
 dependencies = [
     # "frappe~=15.0.0" # Installed and managed by bench.
 ]
